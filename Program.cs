@@ -4,8 +4,8 @@ namespace ASP_selection_sort
 {
     class Program
     {
-        static void selectionSort(int []arr) 
-    { 
+        static void SelectionSort(int []arr) 
+        { 
         int n = arr.Length; 
   
         // One by one move boundary of unsorted subarray 
@@ -26,7 +26,7 @@ namespace ASP_selection_sort
     } 
   
     // Prints the array 
-    static void printArray(int []arr) 
+    static void PrintArray(int []arr) 
     { 
         int n = arr.Length; 
         for (int i=0; i<n; ++i) 
@@ -38,9 +38,9 @@ namespace ASP_selection_sort
     public static void Main() 
     { 
         int []arr = {64,25,12,22,11}; 
-        selectionSort(arr); 
+        SelectionSort(arr); 
         Console.WriteLine("Sorted array"); 
-        printArray(arr); 
+        PrintArray(arr); 
     } 
     }
 }
